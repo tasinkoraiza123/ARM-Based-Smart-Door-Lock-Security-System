@@ -31,7 +31,7 @@ An STM32-based smart door lock that uses PIN authentication, motion detection, a
 - GPIO, PWM, and I²C
 
 ### Working Principle
-The PIR sensor detects approaching motion and activates the OLED display. The user enters a PIN using the keypad. If the PIN is correct, the servo unlocks the door. The reed switch detects the door's status, allowing automatic relocking. Three incorrect PIN attempts trigger a 30-second security lockout with a buzzer alert.
+The PIR sensor detects approaching motion and activates the OLED display. The user enters a PIN using the keypad. If the PIN is correct, the servo unlocks the door. Three incorrect PIN attempts trigger a 15-second security lockout with a buzzer alert.
 
 
 ## Project Proposal & Report:
